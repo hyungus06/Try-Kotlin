@@ -11,7 +11,7 @@ class MemoRepository(
     fun save(content: String) {
         jdbcClient.sql(
             """
-            INSERT INTO memo (content)
+            INSERT INTO memo_dev (content)
             VALUES (:content)
             """
         ).param("content", content).update()
