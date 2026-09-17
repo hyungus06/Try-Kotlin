@@ -10,9 +10,9 @@ Spring Data JPA を利用したデータベース操作を学習します。
 - Kotlin
 - Spring Boot
 - Spring Web
-- Spring Data JPA
+- Spring JDBC
 - Spring Boot DevTools
-- H2 Database
+- SQLite
 - Gradle
 
 ## Getting Started
